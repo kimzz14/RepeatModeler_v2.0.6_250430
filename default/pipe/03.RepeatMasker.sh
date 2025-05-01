@@ -14,6 +14,7 @@ fi
 RepeatMasker \
     -pa ${threadN} \
     -lib ${dbName}-families.fa \
-    -species wheat \
-    ../ref.fa \
+    ref.fa \
     1> 03.RepeatMasker.log 2>&1
+
+#    -species wheat \

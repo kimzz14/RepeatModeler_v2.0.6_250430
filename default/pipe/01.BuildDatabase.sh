@@ -11,4 +11,4 @@ if [ -z "${threadN}" ]; then
     exit 1
 fi
 
-BuildDatabase -name ${dbName} ../ref.fa 1> 01.BuildDatabase.log 2>&1
+BuildDatabase -name ${dbName} ref.fa 1> 01.BuildDatabase.log 2>&1
